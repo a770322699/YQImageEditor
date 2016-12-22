@@ -1,5 +1,5 @@
 //
-//  MGCEditImageViewController.h
+//  YQEditImageViewController.h
 //  maygolf
 //
 //  Created by maygolf on 15/9/11.
@@ -8,20 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MGCEditSelectImageView.h"
+#import "YQEditSelectImageView.h"
 
-@class MGCEditImageViewController;
+@class YQEditImageViewController;
 
 @protocol MGCEditImageViewControllerDelegate <NSObject>
 
 // 编辑完成
-- (void)editDidFinsh:(MGCEditImageViewController *)controller originalImage:(UIImage *)originalImage editImage:(UIImage *)editImage;
+- (void)editDidFinsh:(YQEditImageViewController *)controller originalImage:(UIImage *)originalImage editImage:(UIImage *)editImage;
 // 编辑取消
-- (void)editCancel:(MGCEditImageViewController *)controller origiinalImage:(UIImage *)originalImage;
+- (void)editCancel:(YQEditImageViewController *)controller origiinalImage:(UIImage *)originalImage;
 
 @end
 
-@interface MGCEditImageViewController : UIViewController
+@interface YQEditImageViewController : UIViewController
 
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, assign) MGCEditSelectImageViewShapeStyle editStyle;      //

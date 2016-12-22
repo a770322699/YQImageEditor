@@ -16,8 +16,8 @@
 		6FF94B751BA9B95A00094A4F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B741BA9B95A00094A4F /* DemoTests.m */; };
 		6FF94B881BA9B98300094A4F /* UIImage+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B801BA9B98300094A4F /* UIImage+addition.m */; };
 		6FF94B891BA9B98300094A4F /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF94B821BA9B98300094A4F /* girl.jpg */; };
-		6FF94B8A1BA9B98300094A4F /* MGCEditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B851BA9B98300094A4F /* MGCEditImageViewController.m */; };
-		6FF94B8B1BA9B98300094A4F /* MGCEditSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B871BA9B98300094A4F /* MGCEditSelectImageView.m */; };
+		6FF94B8A1BA9B98300094A4F /* YQEditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B851BA9B98300094A4F /* YQEditImageViewController.m */; };
+		6FF94B8B1BA9B98300094A4F /* YQEditSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF94B871BA9B98300094A4F /* YQEditSelectImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,10 @@
 		6FF94B7F1BA9B98300094A4F /* UIImage+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+addition.h"; sourceTree = "<group>"; };
 		6FF94B801BA9B98300094A4F /* UIImage+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+addition.m"; sourceTree = "<group>"; };
 		6FF94B821BA9B98300094A4F /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
-		6FF94B841BA9B98300094A4F /* MGCEditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEditImageViewController.h; sourceTree = "<group>"; };
-		6FF94B851BA9B98300094A4F /* MGCEditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEditImageViewController.m; sourceTree = "<group>"; };
-		6FF94B861BA9B98300094A4F /* MGCEditSelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCEditSelectImageView.h; sourceTree = "<group>"; };
-		6FF94B871BA9B98300094A4F /* MGCEditSelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCEditSelectImageView.m; sourceTree = "<group>"; };
+		6FF94B841BA9B98300094A4F /* YQEditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQEditImageViewController.h; sourceTree = "<group>"; };
+		6FF94B851BA9B98300094A4F /* YQEditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQEditImageViewController.m; sourceTree = "<group>"; };
+		6FF94B861BA9B98300094A4F /* YQEditSelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQEditSelectImageView.h; sourceTree = "<group>"; };
+		6FF94B871BA9B98300094A4F /* YQEditSelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQEditSelectImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +155,10 @@
 		6FF94B831BA9B98300094A4F /* YQImageEditor */ = {
 			isa = PBXGroup;
 			children = (
-				6FF94B841BA9B98300094A4F /* MGCEditImageViewController.h */,
-				6FF94B851BA9B98300094A4F /* MGCEditImageViewController.m */,
-				6FF94B861BA9B98300094A4F /* MGCEditSelectImageView.h */,
-				6FF94B871BA9B98300094A4F /* MGCEditSelectImageView.m */,
+				6FF94B841BA9B98300094A4F /* YQEditImageViewController.h */,
+				6FF94B851BA9B98300094A4F /* YQEditImageViewController.m */,
+				6FF94B861BA9B98300094A4F /* YQEditSelectImageView.h */,
+				6FF94B871BA9B98300094A4F /* YQEditSelectImageView.m */,
 			);
 			name = YQImageEditor;
 			path = ../YQImageEditor;
@@ -265,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF94B8B1BA9B98300094A4F /* MGCEditSelectImageView.m in Sources */,
+				6FF94B8B1BA9B98300094A4F /* YQEditSelectImageView.m in Sources */,
 				6FF94B611BA9B95900094A4F /* ViewController.m in Sources */,
-				6FF94B8A1BA9B98300094A4F /* MGCEditImageViewController.m in Sources */,
+				6FF94B8A1BA9B98300094A4F /* YQEditImageViewController.m in Sources */,
 				6FF94B881BA9B98300094A4F /* UIImage+addition.m in Sources */,
 				6FF94B5E1BA9B95900094A4F /* AppDelegate.m in Sources */,
 				6FF94B5B1BA9B95900094A4F /* main.m in Sources */,

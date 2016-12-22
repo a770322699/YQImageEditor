@@ -1,14 +1,14 @@
 //
-//  MGCEditSelectImageView.m
+//  YQEditSelectImageView.m
 //  maygolf
 //
 //  Created by maygolf on 15/9/11.
 //  Copyright (c) 2015年 maygolf. All rights reserved.
 //
 
-#import "MGCEditSelectImageView.h"
+#import "YQEditSelectImageView.h"
 
-@interface MGCEditSelectImageView ()
+@interface YQEditSelectImageView ()
 
 @property (nonatomic, assign) CGFloat width;
 @property (nonatomic, assign) CGFloat height;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation MGCEditSelectImageView
+@implementation YQEditSelectImageView
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

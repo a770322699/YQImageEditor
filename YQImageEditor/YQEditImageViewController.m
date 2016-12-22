@@ -1,19 +1,19 @@
 //
-//  MGCEditImageViewController.m
+//  YQEditImageViewController.m
 //  maygolf
 //
 //  Created by maygolf on 15/9/11.
 //  Copyright (c) 2015年 maygolf. All rights reserved.
 //
 
-#import "MGCEditImageViewController.h"
+#import "YQEditImageViewController.h"
 
 #import "UIImage+addition.h"
 
-@interface MGCEditImageViewController ()
+@interface YQEditImageViewController ()
 
 @property (nonatomic, strong) UIImageView *imageView;   // 图片视图
-@property (nonatomic, strong) MGCEditSelectImageView *selecterView;     // 选择视图
+@property (nonatomic, strong) YQEditSelectImageView *selecterView;     // 选择视图
 @property (nonatomic, strong) UIView *bottomBar;
 @property (nonatomic, strong) UIButton *cancelButton;
 @property (nonatomic, strong) UIButton *selectButton;
@@ -25,7 +25,7 @@
 
 @end
 
-@implementation MGCEditImageViewController
+@implementation YQEditImageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -99,10 +99,10 @@
     return _imageView;
 }
 
-- (MGCEditSelectImageView *)selecterView
+- (YQEditSelectImageView *)selecterView
 {
     if (!_selecterView) {
-        _selecterView = [[MGCEditSelectImageView alloc] init];
+        _selecterView = [[YQEditSelectImageView alloc] init];
         _selecterView.backgroundColor = [UIColor clearColor];
         _selecterView.userInteractionEnabled = NO;
         _selecterView.translatesAutoresizingMaskIntoConstraints = NO;

@@ -1,5 +1,5 @@
 //
-//  MGCEditSelectImageView.h
+//  YQEditSelectImageView.h
 //  maygolf
 //
 //  Created by maygolf on 15/9/11.
@@ -13,7 +13,7 @@ typedef NS_ENUM(NSInteger, MGCEditSelectImageViewShapeStyle) {
     MGCEditSelectImageViewShapeStyle_circle,
 };
 
-@interface MGCEditSelectImageView : UIView
+@interface YQEditSelectImageView : UIView
 
 @property (nonatomic, readonly) CGFloat width;
 @property (nonatomic, readonly) CGFloat height;

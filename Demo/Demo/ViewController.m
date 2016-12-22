@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MGCEditImageViewController.h"
+#import "YQEditImageViewController.h"
 
 @interface ViewController ()<MGCEditImageViewControllerDelegate>
 
@@ -26,7 +26,7 @@
 }
 - (IBAction)editImage:(id)sender {
     
-    MGCEditImageViewController *controller = [[MGCEditImageViewController alloc] init];
+    YQEditImageViewController *controller = [[YQEditImageViewController alloc] init];
     controller.editStyle = MGCEditSelectImageViewShapeStyle_circle;
     controller.ratioW_Y = 1;
     controller.suitableWidth = 100;
@@ -37,13 +37,13 @@
 
 #pragma mark - MGCEditImageViewControllerDelegate
 // 编辑完成
-- (void)editDidFinsh:(MGCEditImageViewController *)controller originalImage:(UIImage *)originalImage editImage:(UIImage *)editImage
+- (void)editDidFinsh:(YQEditImageViewController *)controller originalImage:(UIImage *)originalImage editImage:(UIImage *)editImage
 {
     [UIImageJPEGRepresentation(editImage, 1) writeToFile:@"/Users/yanghy/Desktop/editImgae.jpg" atomically:YES];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 // 编辑取消
-- (void)editCancel:(MGCEditImageViewController *)controller origiinalImage:(UIImage *)originalImage
+- (void)editCancel:(YQEditImageViewController *)controller origiinalImage:(UIImage *)originalImage
 {
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
